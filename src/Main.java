@@ -15,7 +15,7 @@ public class Main {
                 new Trick("joue du piano", Trick.TrickType.MUSIC),
                 new Trick("danse", Trick.TrickType.STUNT),
                 new Trick("joue du piano", Trick.TrickType.MUSIC),
-                new Trick("lance des orange", Trick.TrickType.STUNT)
+                new Trick("lance des oranges", Trick.TrickType.STUNT)
         )));
 
         Trainer trainer1 = new Trainer(monkey1, "Albert");

@@ -1,6 +1,4 @@
 import java.util.ArrayList;
-import java.util.List;
-
 public class Monkey {
     public Monkey(String name, ArrayList<Trick> tricks) {
         setTricks(tricks);
@@ -34,9 +32,5 @@ public class Monkey {
 
     public void setTricks(ArrayList<Trick> tricks) {
         this.tricks = tricks;
-    }
-
-    public void applause() {
-        System.out.println("spectateur applaudit pendant le tour d'acrobatie 'marcher sur les mains' du singe 2");
     }
 }
